@@ -35,7 +35,6 @@ const performCheck = (levels) => {
 const main = () => {
     let reports = getDataParsed();
 
-    // First part
     const nbSafe = reports.map((report) => {
         let baselevels = report.split(' ').map((level) => parseInt(level))
         let safe = null
